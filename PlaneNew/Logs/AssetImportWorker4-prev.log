@@ -1,0 +1,242 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityProject\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/UnityProject/PlaneNew
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51544
+Successfully changed project path to: D:/UnityProject/PlaneNew
+D:/UnityProject/PlaneNew
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19212] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 669958525 [EditorId] 669958525 [Version] 1048832 [Id] WindowsEditor(7,NirVana) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19212] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 669958525 [EditorId] 669958525 [Version] 1048832 [Id] WindowsEditor(7,NirVana) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 94.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path D:/UnityProject/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/PlaneNew/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.2849
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'D:/UnityProject/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityProject/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityProject/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityProject/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityProject/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002354 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004261 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\PlaneNew\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\PlaneNew\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1899ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1666ms)
+			LoadAssemblies (880ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+database is locked
+Failed to delete database file Library/ShaderCache.db
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (146.3 KB). Loaded Objects now: 3625.
+Memory consumption went from 120.7 MB to 120.5 MB.
+Total: 4.022700 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.356600 ms MarkObjects: 3.173900 ms  DeleteObjects: 0.167500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167214.156571 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(21d3ae3dd00813143a6b4260dd71cdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(21d3ae3dd00813143a6b4260dd71cdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6577d160e01c37039ba0d1a02ca85cad') in 0.312067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AirSurface (5).prefab
+  artifactKey: Guid(b964b88be8a5a7340a98534f31cc7342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AirSurface (5).prefab using Guid(b964b88be8a5a7340a98534f31cc7342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607886ca8303bb5a8c7d72ec806ac96a') in 0.015387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AirSurface (3).prefab
+  artifactKey: Guid(c279fdb9fc3618e43ab699210f190300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AirSurface (3).prefab using Guid(c279fdb9fc3618e43ab699210f190300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3008e863aa6590d5d6b4c4cebb8af8a6') in 0.007861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AirSurface (2).prefab
+  artifactKey: Guid(35bea896815bf8646ad383e819d15038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AirSurface (2).prefab using Guid(35bea896815bf8646ad383e819d15038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc91a17ae7e9383aff6596447648da06') in 0.008669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/New Terrain 4.asset
+  artifactKey: Guid(f7832bd57bf4dcf45b0bd4a304c0ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 4.asset using Guid(f7832bd57bf4dcf45b0bd4a304c0ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b346b3f6347f266cb0053c1cfc71367e') in 0.059943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(a3bc275d5e2fd9c498c23e6fd9c530d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(a3bc275d5e2fd9c498c23e6fd9c530d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d25b4a69dca90cf1db4d6633e08d58') in 0.021357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.665650 seconds.
+  path: Assets/TerrainData_8fe4702b-341e-4175-af0b-74b03c17d20c.asset
+  artifactKey: Guid(6459019731e8e844fa9f765e45ebc438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8fe4702b-341e-4175-af0b-74b03c17d20c.asset using Guid(6459019731e8e844fa9f765e45ebc438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e052ce332e3945fbefd4e8b1703c20f5') in 0.018899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_d451a2b4-977e-4509-a4d2-eae3e38294ce.asset
+  artifactKey: Guid(18d7de43b523fae47b79fe2388b7e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d451a2b4-977e-4509-a4d2-eae3e38294ce.asset using Guid(18d7de43b523fae47b79fe2388b7e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bf9a5a811fad29a36f72eb23248ca7') in 0.020182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_b7bd0198-9a2a-4c11-b7b9-13989c93d897.asset
+  artifactKey: Guid(8321bc6117a4fb34eb337772b971dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b7bd0198-9a2a-4c11-b7b9-13989c93d897.asset using Guid(8321bc6117a4fb34eb337772b971dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ee0eae4bf65fb54485cb000ec126a3') in 0.017576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainData_feef089f-4cc1-4023-a663-ab5c88f5feef.asset
+  artifactKey: Guid(0f43502d35d2c324f91d75f95eff8a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_feef089f-4cc1-4023-a663-ab5c88f5feef.asset using Guid(0f43502d35d2c324f91d75f95eff8a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf03ffaa991b01331d7467593eb301a') in 0.024994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_f2747616-0fc8-4f54-a40e-add94c723892.asset
+  artifactKey: Guid(ba2148b3fcb5c8d4d95068949aab8fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f2747616-0fc8-4f54-a40e-add94c723892.asset using Guid(ba2148b3fcb5c8d4d95068949aab8fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b2ccad17b95b7cc2ae8bf3e4b3d290') in 0.015460 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
